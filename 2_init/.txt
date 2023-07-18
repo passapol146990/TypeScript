@@ -1,0 +1,13 @@
+create 
+tsc -init
+
+compile
+tsc //ไฟล์ ts จะ compile ทั้งหมด
+
+ไฟล์ tscomfig.json
+target กำหนดเวอร์ชัน ts-->js
+rootDir ตำแหน่ง TS ไม่ใส่ก็ได้
+outDir ตำแหน่ง JS
+include ขอบเขตตำแหน่ง TS-->js จำเป็น ให้ใช้แทน rootDir
+มันจะไม่มีให้เขียนต่อท้าย ,
+  "include": ["ts"]

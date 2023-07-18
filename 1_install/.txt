@@ -1,0 +1,6 @@
+ติดตั้ง
+npm install -g  typescript
+tsc -v
+
+แปลง ts --> js
+tsc {file.ts}
